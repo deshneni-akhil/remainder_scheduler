@@ -34,7 +34,6 @@ async def handle_webhook(request: Request):
     # Process the incoming message data
     print(data)
     return "OK", 200
-    pass
 
 
 
