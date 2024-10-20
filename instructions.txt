@@ -1,0 +1,4 @@
+ 4265  pip install -t dependencies -r requirements.txt
+ 4266  (cd dependencies; zip ../aws_lambda_artificat.zip -r .)
+ 4267  zip aws_lambda_artificat.zip -u main.py
+ sample
